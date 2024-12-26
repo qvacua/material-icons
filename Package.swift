@@ -1,10 +1,10 @@
-// swift-tools-version:5.3
+// swift-tools-version: 6.0
 
 import PackageDescription
 
 let package = Package(
   name: "MaterialIcons",
-  platforms: [.macOS(.v10_13)],
+  platforms: [.macOS(.v12)],
   products: [
     .library(name: "MaterialIcons", targets: ["MaterialIcons"]),
   ],
@@ -21,10 +21,6 @@ let package = Package(
         .copy("mi-sharp-v24.woff2"),
         .copy("mi-twotone-v22.woff2"),
       ]
-    ),
-    .testTarget(
-      name: "MaterialIconsTests",
-      dependencies: ["MaterialIcons"]
     ),
   ]
 )

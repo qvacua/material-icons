@@ -1,6 +1,6 @@
 # MaterialIcons
 
-Simple Swift package for [Material Icons][material-icons]. We currently support only macOS 10.13 or higher. 
+Simple Swift package for [Material Icons][material-icons]. We currently support only macOS 12 or higher. 
 Include it via SwiftPM and use as follows
 
 ```swift

@@ -5,7 +5,7 @@
 
 import Cocoa
 
-public struct Icon: Hashable {
+public struct Icon: Hashable, Sendable {
 
   public var name: String
   public var unicode: String

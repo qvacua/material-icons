@@ -6,7 +6,7 @@
 import Cocoa
 import os
 
-class FontLoader {
+final class FontLoader: Sendable {
 
   static let shared = FontLoader()
 

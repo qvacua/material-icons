@@ -10,7 +10,7 @@ class Defs {
   static let bundleIdentifier = "com.qvacua.MaterialIcons"
 }
 
-public enum Style: CaseIterable {
+public enum Style: CaseIterable, Sendable {
 
   case outlined
   case filled
